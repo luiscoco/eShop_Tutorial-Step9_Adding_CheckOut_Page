@@ -22,7 +22,7 @@ We create a new folder inside the Component->Pages folder
 
 We also add a new razor component inside the Checout folder. This is the ChecOut web page code:
 
-**Checkout.razor**
+### 3.1. Checkout.razor source code
 
 ```razor
 @page "/checkout"
