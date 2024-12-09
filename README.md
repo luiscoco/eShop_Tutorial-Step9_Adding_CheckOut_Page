@@ -239,20 +239,7 @@ PopulateFormWithDefaultInfo: Fills the form with default address values from use
 
 ParseExpiryDate: Parses a credit card expiry date in MM/YY format
 
-## 4. 
-
-
-
-
-
-
-## 5. 
-
-
-
-
-
-## 6. We run the application and we verify the results
+## 4. We run the application and we verify the results
 
 This sample scope of work is focus on adding the **CheckOut** web page in the **eShop** solution
 
