@@ -16,11 +16,11 @@ https://github.com/luiscoco/eShop_Tutorial-Step8_Adding_Basket_API
 
 ## 3. We Add a new razor component "Checkout" in the WebApp project
 
-We create a new folder inside the Component->Pages folder
+We create a new folder inside the **Component->Pages** folder
 
 ![image](https://github.com/user-attachments/assets/2735be5a-305b-4119-8222-9359257dcd83)
 
-We also add a new razor component inside the Checout folder. This is the ChecOut web page code:
+We also add a new razor component inside the Checkout folder. This is the CheckOut web page code:
 
 ### 3.1. Checkout.razor source code
 
@@ -208,6 +208,49 @@ We also add a new razor component inside the Checout folder. This is the ChecOut
 **Form Buttons**: Back to shopping bag, Links back to the cart page
 
 **Place order**: Submits the form
+
+### 3.5. Backend Code (@code Block)
+
+**State Management**:
+
+Info: Represents the user's checkout details (BasketCheckoutInfo)
+
+editContext: Manages form state
+
+extraMessages: Stores custom validation messages
+
+**Initialization (OnInitialized)**: Checks if Info is populated; if not, it populates it with default values from the user's claims (e.g., address details from their authentication profile)
+
+**Form Submission**:
+
+HandleSubmitAsync: Performs custom validation (e.g., ensuring the cart isn't empty)
+
+If validation passes, it calls HandleValidSubmitAsync
+
+HandleValidSubmitAsync: Sets additional data (e.g., card type). Calls Basket.CheckoutAsync to process the order
+
+Navigates to the "user/orders" page
+
+Custom Validation: Ensures the cart is not empty before allowing the order to proceed. Adds validation errors to the form when necessary.
+
+**Utility Functions**:
+
+PopulateFormWithDefaultInfo: Fills the form with default address values from user claims
+
+ParseExpiryDate: Parses a credit card expiry date in MM/YY format
+
+## 4. 
+
+
+
+
+
+
+## 5. 
+
+
+
+
 
 ## 6. We run the application and we verify the results
 
