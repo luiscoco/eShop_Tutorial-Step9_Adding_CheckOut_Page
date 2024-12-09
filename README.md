@@ -2,7 +2,9 @@
 
 This sample scope of work is focus on adding the **CheckOut** web page in the **eShop** solution
 
-To visit the ChecOut web page, first we have to add an item in the basket and after press the basket icon to navigate to it
+To visit the ChecOut web page, first we have to add an item into the shopping basket and after press the basket icon to navigate to it
+
+![image](https://github.com/user-attachments/assets/e0e2d99e-8b78-486d-b559-a05dc884e77d)
 
 Inside the basket we see all the product we already have bought and we can press the ChecOut button
 
@@ -10,7 +12,7 @@ Inside the basket we see all the product we already have bought and we can press
 
 This is the CheckOut web page
 
-
+![image](https://github.com/user-attachments/assets/96676f71-4727-4a65-a5a6-8432e0be5c24)
 
 ## 1. We Download the Solution from Github repo
 
