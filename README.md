@@ -231,7 +231,7 @@ HandleValidSubmitAsync: Sets additional data (e.g., card type). Calls Basket.Che
 
 Navigates to the "user/orders" page
 
-Custom Validation: Ensures the cart is not empty before allowing the order to proceed. Adds validation errors to the form when necessary.
+**Custom Validation**: Ensures the cart is not empty before allowing the order to proceed. Adds validation errors to the form when necessary.
 
 **Utility Functions**:
 
