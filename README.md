@@ -158,7 +158,7 @@ We also add a new razor component inside the Checout folder. This is the ChecOut
 }
 ```
 
-The **Key Features** in the above code are:
+### 3.2. Key Features in the above code
 
 **Data Binding**: Dynamically binds user input to the Info model
 
@@ -168,7 +168,8 @@ The **Key Features** in the above code are:
 
 **Navigation**: Automatically redirects to the orders page upon successful submission
 
-The **Page Configuration** could be splitted in the following items: 
+
+### 3.3. Page Configuration
 
 **@page "/checkout"**: Specifies the route URL (/checkout) for this component
 
@@ -180,7 +181,7 @@ The **Page Configuration** could be splitted in the following items:
 
 **NavigationManager Nav**: Handles navigation between pages
 
-The **Page Content**
+### 3.4. Page Content
 
 **Page Header**:
 
